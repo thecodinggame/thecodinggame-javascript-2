@@ -5,7 +5,7 @@ describe('string', function() {
     describe('replace', function() {
 
         it('only replaces first occurence', function() {
-            expect('  ***  '.replace('*', 'A')).to.equal('  A**  ');
+            expect('  ***  '.replace('*', 'A')).to.equal('green me!');
         });
     });
 });
